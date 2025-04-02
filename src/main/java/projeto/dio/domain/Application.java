@@ -1,13 +1,13 @@
-package projeto.dio.projeto.java;
+package projeto.dio.domain;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProjetoJavaApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProjetoJavaApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
